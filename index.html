@@ -1,1 +1,42 @@
-testy
+<html>
+<title>Tải Xác Minh...</title>
+<body style="flex: 1 0 auto; padding: 20px; margin-bottom:50px;">
+<center>
+<h2><u>ĐANG TẢI...</u></h2>
+<h3>Xác Minh sẽ được tải sau <font color="green"><span id="countdowntimer">3</span></font> giây nữa</h3>
+<p>
+Bạn có thể xem thêm hướng dẫn sử dụng xác minh tại đây <a color="green" href="http://bit.ly/2jnFGfh">Hướng dẫn xác minh<a>
+<br>Nếu như bạn gặp sự cố trong quá trình xác minh, hãy vào group của server để yêu cầu 
+<br>sự trợ giúp từ mọi người và hỏi, báo lỗi cho admin <a color="green" href="https://fb.com/groups/toichoinetwork">fb.com/groups/toichoinetwork<a>
+</p>
+<br>
+<div class="quangcao">
+  <div>   
+    <table style="border-spacing: 0;border-collapse: collapse;">
+        <tr>
+            <td style="padding: 0 0 0 0;display: block;background-color: #bdbcbc;">
+                <a target="_blank" href="http://bit.ly/2Mjtupg">
+                <img border="0" alt="web nap the toichoi network" src="quangcao.jpg" width="743" height="325">
+                </a>
+            </td>
+        </tr>
+    </table>
+  </div>
+</div> 
+</center>
+</body>
+<div style="position: fixed; background-color: #efefef; bottom: 0px; left: 0px; right: 0px; margin-bottom: 0px; text-align: center; padding: 10px;">
+© Copyright 2018 - Tôi Chơi Network
+</div>
+</html>
+<script type="text/javascript">
+    var timeleft = 3;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        window.location = "TCXM.exe";       
+        }
+    },1000);
+</script>
